@@ -25,7 +25,6 @@ body {
     display: grid;
     grid-template-columns: 160px 1fr 160px;
     gap: 10px;
-    grid-template-rows: auto;
 }
 
 .news__banner {
@@ -33,6 +32,8 @@ body {
     background-color: #FFABAB;
     border-radius: 20px;
     padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 .news__banner-text {
@@ -51,12 +52,16 @@ body {
 
 .news__nav {
     background-color: #FC95FE;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
 .news__content {
     background-color: #FFF3B1;
     padding: 75px 30px;
     border-radius: 20px;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 .news__content-list {
@@ -75,10 +80,14 @@ body {
     background-color: #96ADFF;
     border-radius: 20px;
     height: 130px;
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
 
 .news__add--size-xl {
     height: 260px;
     border-radius: 20px;
     background-color: #2956F7;
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
