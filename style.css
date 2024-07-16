@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Robot", "Arial", sans-serif;
+    margin: 0;
+    padding: 40px 30px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 300px 500px 300px;
+}
+
+.content__box {
+    display: flex;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 15px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.green {
+    background-color: green;
+}
+
+.grey {
+    background-color: grey;
+}
