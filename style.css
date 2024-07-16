@@ -4,14 +4,16 @@
 
 body {
     font-family: "Robot", "Arial", sans-serif;
+    color: #ffffff;
     margin: 0;
     padding: 40px 30px;
 }
 
 .content {
+    width: 1248px;
     display: grid;
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 100px 150px 50px;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
 }
 
 .content__box {
@@ -29,8 +31,8 @@ body {
     background-color: blue;
 }
 
-.yellow {
-    background-color: yellow;
+.red {
+    background-color: red;
 }
 
 .purple {
