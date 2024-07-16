@@ -4,49 +4,5 @@
 
 body {
     font-family: "Robot", "Arial", sans-serif;
-    color: #ffffff;
     margin: 0;
-    padding: 40px 30px;
-}
-
-.content {
-    width: 1248px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 20px 50px;
-}
-
-.content__box {
-    display: flex;
-    height: 100%;
-    border-radius: 10px;
-    font-size: 30px;
-    padding: 15px 0;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.blue {
-    background-color: blue;
-}
-
-.red {
-    background-color: red;
-}
-
-.purple {
-    background-color: purple;
-}
-
-.pink {
-    background-color: pink;
-}
-
-.green {
-    background-color: green;
-}
-
-.grey {
-    background-color: grey;
 }
